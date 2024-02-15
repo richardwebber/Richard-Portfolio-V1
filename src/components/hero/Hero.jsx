@@ -18,7 +18,7 @@ const textVariants = {
     opacity: 0,
     y: 10,
     transition: {
-        duration: 2,
+        duration: 2.2,
         repeat: Infinity,
     }
   }
