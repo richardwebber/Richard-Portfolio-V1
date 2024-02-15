@@ -34,11 +34,11 @@ export const Hero = () => {
           initial="initial"
           animate="animate"
         >
-          <motion.h1 variants={textVariants}>Richard Webber</motion.h1>
-          <motion.h2 variants={textVariants}>Software Engineer</motion.h2>
+          <motion.h1 variants={textVariants}>RICHARD WEBBER</motion.h1>
+          <motion.h2 variants={textVariants}>SOFTWARE ENGINEER</motion.h2>
           <motion.div variants={textVariants} className="buttons">
-            <motion.button variants={textVariants}>Latest Work</motion.button>
-            <motion.button variants={textVariants}>Contact Me</motion.button>
+            <motion.button variants={textVariants} className="latest-work">Latest Work</motion.button>
+            <motion.button variants={textVariants} className="contact-me">Contact Me</motion.button>
           </motion.div>
           <motion.img
             variants={textVariants}
