@@ -14,6 +14,14 @@ const textVariants = {
       staggerChildren: 0.1,
     },
   },
+  scrollButton: {
+    opacity: 0,
+    y: 10,
+    transition: {
+        duration: 2,
+        repeat: Infinity,
+    }
+  }
 };
 
 export const Hero = () => {
@@ -34,6 +42,7 @@ export const Hero = () => {
           </motion.div>
           <motion.img
             variants={textVariants}
+            animate='scrollButton'
             className="arrow-icon"
             src="/arrow.png"
             alt=""

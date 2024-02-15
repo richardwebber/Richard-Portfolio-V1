@@ -12,16 +12,29 @@ const Navbar = () => {
           animate={{ opacity: 1, scale: 1 }}
           transition={{ duration: 0.5 }}
         >
-          Richard Webber
+          {/* Richard Webber */}
         </motion.span>
         <div className="social">
           <a href="https://www.linkedin.com/in/richard-webber-b1a052276/">
-            <img src="/bw-linkedIn-icon.png" alt="" className="linkedIn-logo"/>
+            <motion.img
+              src="/bw-linkedIn-icon.png"
+              alt=""
+              className="linkedIn-logo"
+              initial={{ opacity: 0, scale: 0.5 }}
+              animate={{ opacity: 1, scale: 1 }}
+              transition={{ duration: 1 }}
+            />
           </a>
           <a href="https://github.com/richardwebber">
-            <img src="/github-logo.png" alt="" className="github-logo"/>
+            <motion.img
+              src="/github-logo.png"
+              alt=""
+              className="github-logo"
+              initial={{ opacity: 0, scale: 0.5 }}
+              animate={{ opacity: 1, scale: 1 }}
+              transition={{ duration: 1 }}
+            />
           </a>
-          
         </div>
       </div>
     </div>
