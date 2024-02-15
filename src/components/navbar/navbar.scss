@@ -7,7 +7,7 @@
         display: flex;
         align-items: center;
         justify-content: space-between;
-        background-color: #e7e7e7;
+        background-color: #fcfcfc;
         height: 100%;
 
         span {
@@ -20,8 +20,13 @@
         }
 
         img {
-            width: 18px;
-            height: 18px;
+            width: 25px;
+            height: 25px;
+        }
+
+        .github-logo {
+            width: 23px;
+            height: 23px;
         }
     }
 }

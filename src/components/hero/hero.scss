@@ -1,0 +1,64 @@
+.hero {
+    height: calc(100vh - 100px);
+    overflow: hidden;
+    background: linear-gradient(180deg, #fcfcfc, #ebebeb);
+    position: relative;
+
+    .wrapper {
+        max-width: 1366px;
+        height: 100%;
+        margin: auto;
+
+        .textContainer {
+            width: 50%;
+            height: 100%;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            gap: 20px;
+
+            h1 {
+                font-size: 120px;
+                font-family: New Century Schoolbook, TeX Gyre Schola, serif;
+                color: rgb(0, 0, 0);
+                letter-spacing: 10px;
+            }
+
+            h2 {
+                font-size: 40px;
+                font-family: Avantgarde, TeX Gyre Adventor, URW Gothic L, sans-serif;
+                color: #7d7d7d;
+                padding: 0px 0px 0px 10px;
+                margin-bottom: 40px;
+            }
+
+            .buttons{
+                button {
+                    padding: 20px;
+                    border: 1px solid white;
+                    border-radius: 25px;
+                    background-color: rgb(51, 51, 51);
+                    color: white;
+                }
+
+            }
+
+            img {
+                width: 50px;
+            }
+        }
+    }
+
+    .imageContainer {
+        height: 100%;
+        position: absolute;
+        top: 0;
+        right: 0;
+    } 
+}
+
+
+.headshot-img {
+    height: 790px;
+}
+
