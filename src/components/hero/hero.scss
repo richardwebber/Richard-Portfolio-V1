@@ -44,32 +44,43 @@
             padding-top: 180px;
           button {
             padding: 12px;
-            border: 1px solid white;
+            border: 2px solid white;
             border-radius: 25px;
-            background-color: rgb(61, 61, 61);
-            color: rgb(255, 255, 255);
-            margin: 0px 20px 0px 10px;
-            width: 120px;
+            margin: 0px 20px 0px 30px;
+            width: 130px;
             cursor: pointer;
-            font-weight: 300;
-  
-            &.latest-work:hover {
+            font-weight: 600;
+            letter-spacing: 1px;
+
+            &.latest-work {
                 background-color: transparent;
                 color: blue;
                 border-color: blue;
-              }
-    
-              &.contact-me:hover {
+            }
+
+            &.contact-me {
                 background-color: transparent;
                 color: #00d652;
                 border-color: #00d652;
+            }
+  
+            &.latest-work:hover {
+                background-color: blue;
+                color: white;
+                border-color: white;
+              }
+    
+              &.contact-me:hover {
+                background-color: #00d652;
+                color: white;
+                border-color: rgb(255, 255, 255);
               }
           }
         }
   
         img {
-          width: 50px;
-          margin: 0px 0px 0px 41px;
+          width: 40px;
+          margin: 0px 0px 0px 72px;
         }
       }
     }
