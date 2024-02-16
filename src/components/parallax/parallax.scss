@@ -8,7 +8,10 @@
     overflow: hidden;
 
     h1{
-        font-size: 100px;
+        font-size: 70px;
+        color: rgb(255, 255, 255);
+        padding-bottom: 300px;
+        z-index: 3;
     }
 
     .mountains{
@@ -21,16 +24,17 @@
         z-index: 3;
     }
     .planets{
-        background-image: url("/moon4.png");
+        background-image: url("/moongood2.png");
         background-size: cover;
         background-position: bottom;
-        width: 300px;
-        height: 300px;
+        width: 100px;
+        height: 100px;
         position: absolute;
         z-index: 2;
+        top: 100px;
     }
     .stars{
-        background-image: url("/stars.png");
+        background-image: url("/night-sky.png");
         background-size: cover;
         background-position: bottom;
         width: 100%;
