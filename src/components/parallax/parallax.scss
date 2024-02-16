@@ -12,6 +12,11 @@
         color: rgb(255, 255, 255);
         padding-bottom: 300px;
         z-index: 3;
+        text-shadow: 
+        1px 1px 0 rgba(254, 254, 254, 0.5),
+        2px 2px 0 rgba(189, 189, 189, 0.5),
+    // 6px 6px 0 rgba(0, 0, 0, 0.5),
+    // 8px 8px 0 rgba(0, 0, 0, 0.5);;
     }
 
     .mountains{
@@ -23,16 +28,90 @@
         position: absolute;
         z-index: 3;
     }
-    .planets{
-        background-image: url("/moongood2.png");
+    .react-logo{
+        background-image: url("/bw-react-logo.png");
         background-size: cover;
         background-position: bottom;
-        width: 100px;
-        height: 100px;
+        width: 79px;
+        height: 70px;
         position: absolute;
-        z-index: 2;
-        top: 100px;
+        z-index: 4;
+        bottom: 100px;
+        left: 40px;
     }
+
+    .js-logo{
+        background-image: url("/JavaScript-logo.png");
+        background-size: cover;
+        background-position: bottom;
+        width: 70px;
+        height: 70px;
+        position: absolute;
+        z-index: 5;
+        bottom: 100px;
+        left: 124px;
+    }
+
+    .ts-logo{
+        background-image: url("/ts-logo.png");
+        background-size: cover;
+        background-position: bottom;
+        width: 70px;
+        height: 70px;
+        position: absolute;
+        z-index: 5;
+        bottom: 100px;
+        left: 200px;
+    }
+
+    .html-logo{
+        background-image: url("/html-5-logo.png");
+        background-size: cover;
+        background-position: bottom;
+        width: 70px;
+        height: 70px;
+        position: absolute;
+        z-index: 5;
+        bottom: 100px;
+        left: 266px;
+    }
+
+    .css-logo{
+        background-image: url("/css-logo.png");
+        background-size: cover;
+        background-position: bottom;
+        width: 49px;
+        height: 70px;
+        position: absolute;
+        z-index: 5;
+        bottom: 100px;
+        left: 330px;
+    }
+
+    .nodejs-logo{
+        background-image: url("/node.js_logo.png");
+        background-size: cover;
+        background-position: bottom;
+        width: 115px;
+        height: 70px;
+        position: absolute;
+        z-index: 5;
+        bottom: 100px;
+        left: 464px;
+    }
+
+    .postgresql-logo{
+        background-image: url("/postgresql-elephant.png");
+        background-size: cover;
+        background-position: bottom;
+        width: 68px;
+        height: 70px;
+        position: absolute;
+        z-index: 5;
+        bottom: 100px;
+        left: 387px;
+    }
+
     .stars{
         background-image: url("/night-sky.png");
         background-size: cover;
