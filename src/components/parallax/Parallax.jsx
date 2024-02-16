@@ -12,7 +12,7 @@ export const Parallax = ({ type }) => {
 
   const yText = useTransform(scrollYProgress, [0, 1], ["0%", "500%"]);
   const yBg = useTransform(scrollYProgress, [0, 1], ["0%", "100%"]);
-  const xBg = useTransform(scrollYProgress, [0, 1], ["0%", "100%"]);
+  const xBg = useTransform(scrollYProgress, [0, 1], ["0%", "200%"]);
 
   return (
     <div
@@ -25,12 +25,12 @@ export const Parallax = ({ type }) => {
             : `linear-gradient(180deg, #99b3e6, #ebf0fa)`,
       }}
     >
-      <motion.h1 style={{y:yBg}}>
+      <motion.h1 style={{y:yText}}>
         {type === "services" ? "[skills]" : "[projects]"}
       </motion.h1>
       <motion.div className="mountains"></motion.div>
-      <motion.div className="planets"></motion.div>
-      <motion.div style={{y:yBg}} className="stars"></motion.div>
+      <motion.div style={{y:yBg}} className="planets"></motion.div>
+      <motion.div style={{x:yBg}} className="stars"></motion.div>
     </div>
   );
 };
