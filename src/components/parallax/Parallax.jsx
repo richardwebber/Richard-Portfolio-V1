@@ -1,14 +1,12 @@
 import "./parallax.scss";
 
 export const Parallax = ({ type }) => {
+
   return (
     <div
       className="parallax"
       style={{
-        background:
-          type === "services"
-            ? "linear-gradient(180deg, #111132, #0c0c1d)"
-            : "linear-gradient(180deg, #111132, #505064)",
+        background:type==='services' ? `linear-gradient(180deg, #000000, #a3a3c2)` : `linear-gradient(180deg, #99b3e6, #ebf0fa)`
       }}
     >
       <h1>{type === "services" ? "What We Do?" : "What We Did?"}</h1>
