@@ -4,19 +4,22 @@
         position: sticky;
         top: 0;
         left: 0;
-        padding-top: 60px;
+        padding-top: 30px;
+        padding-bottom: 5px;
         text-align: center;
-        color: rgb(0, 0, 0);
-        font-size: 20px;
+        color: #7d7d7d;
+        font-size: 15px;
+        background-color: #f0f0f0;
 
         h1{
         font-family: "Source Code Pro", monospace;
+        padding-bottom: 40px;
         }
         
 
         .progressBar{
             height: 5px;
-            background-color:#7d7d7d;
+            background-color:#000000;
 
         }
     }

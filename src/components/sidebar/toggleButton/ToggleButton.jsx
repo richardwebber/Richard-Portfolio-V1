@@ -5,7 +5,7 @@ const ToggleButton = ({ setOpen }) => {
     <motion.span
       initial={{ opacity: 0, scale: 1 }}
       animate={{ opacity: 1, scale: 1 }}
-      transition={{ duration: 0.5, delay: 0.5 }}
+      transition={{ duration: 0.5, delay: 0.1 }}
     >
       <button onClick={() => setOpen((prev) => !prev)}>
         <svg width="23" height="23" viewBox="0 0 23 23">
