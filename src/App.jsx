@@ -1,6 +1,7 @@
 import "./app.scss";
 import Navbar from "./components/navbar/Navbar";
 import { Hero } from "./components/hero/Hero";
+import { Portfolio } from "./components/portfolio/Portfolio.jsx";
 import Parallax from "./components/parallax/Parallax.jsx";
 // import { Test } from './Test'
 
@@ -14,9 +15,7 @@ const App = () => {
       <section id="Portfolio">
         <Parallax />
       </section>
-      <section>Portfolio1</section>
-      <section>Portfolio2</section>
-      <section>Portfolio3</section>
+      <Portfolio />
       <section id="Contact">Contact</section>
       {/* <Test/> */}
     </div>
