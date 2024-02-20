@@ -13,7 +13,7 @@ const Parallax = () => {
 
   const yText = useTransform(scrollYProgress, [0,1], ["0%", "300%"])
   const yBg = useTransform(scrollYProgress, [0,1], ["0%", "500%"])
-  const logoBg = useTransform(scrollYProgress, [0,1], ["0%", "-170%"])
+  const logoBg = useTransform(scrollYProgress, [0,1], ["0%", "-200%"])
   const yBg2 = useTransform(scrollYProgress, [0,1], ["0%", "70%"])
 
 
