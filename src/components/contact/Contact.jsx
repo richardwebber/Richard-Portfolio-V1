@@ -58,15 +58,11 @@ const Contact = () => {
         <motion.h1 variants={variants}>Lets work together</motion.h1>
         <motion.div className="item" variants={variants}>
           <h2>Mail</h2>
-          <span>hello@react.dev</span>
+          <span>r.webber.dev@gmail.com</span>
         </motion.div>
         <motion.div className="item" variants={variants}>
           <h2>Address</h2>
           <span>Salt Lake City, Utah</span>
-        </motion.div>
-        <motion.div className="item" variants={variants}>
-          <h2>Phone</h2>
-          <span>801-999-9999</span>
         </motion.div>
       </motion.div>
       <div className="formContainer">
