@@ -49,13 +49,23 @@
         flex: 1;
         position: relative;
         
-        
+        @include mobile {
+            width: 100%;
+            padding: 50px;
+        }
 
         .phoneSvg {
             stroke: rgb(0, 0, 0);
             position: absolute;
             margin: auto;
             z-index: -1;
+
+            svg {
+                @include mobile {
+                    height: 230px;
+                    width: 230px;
+                }
+            }
 
         }
 
@@ -77,11 +87,22 @@
             }
 
             button {
-                padding: 20px;
-                border: none;
-                background-color: green;
+                padding: 12px;
+                border: 2px solid white;
+                border-radius: 25px;
+                // width: 130px;
                 cursor: pointer;
-                font-weight: 500;
+                font-weight: 600;
+                letter-spacing: 1px;
+                background-color: transparent;
+                color: #00d652;
+                border-color: #00d652;
+
+                &:hover {
+                    background-color: #00d652;
+                color: white;
+                border-color:  #00d652;
+                }
 
                 @include mobile {
                  padding: 10px;

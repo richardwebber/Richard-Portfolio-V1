@@ -17,7 +17,7 @@ const items = [
   },
   {
     id: 3,
-    title: "Discord Clone",
+    title: "Customer Admin APP",
     img: "https://w0.peakpx.com/wallpaper/207/486/HD-wallpaper-laguna-beach-usa-california-dawn-night-lights-scenery-relaxing-mood-nature.jpg",
     desc: "Where To is an app that brings people together by creating, likeing, saving and sharing events!",
   },
