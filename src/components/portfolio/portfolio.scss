@@ -82,8 +82,8 @@
                 @include mobile {
                     transform: none !important;
                     padding: 10px;
-                    align-content: center;
                     text-align: center;
+                    align-items: center;
                 }
 
                 h2{
@@ -117,6 +117,10 @@
                     box-shadow: 
                     1px 1px 0 rgba(254, 254, 254, 0.5),
                     2px 2px 0 rgba(189, 189, 189, 0.5),;
+
+                    @include mobile {
+                        
+                    }
 
                 }
                 button:hover{
