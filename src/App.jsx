@@ -15,9 +15,9 @@ const App = () => {
         <Navbar />
         <Hero />
       </section>
-      {/* <section id="Portfolio">
+      <section id="Portfolio">
         <Parallax />
-      </section> */}
+      </section>
       {/* <Portfolio /> */}
       {/* <section id="Contact">
         <Contact />
