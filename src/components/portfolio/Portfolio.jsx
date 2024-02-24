@@ -7,7 +7,7 @@ const items = [
     id: 1,
     title: "Where To?",
     img: "https://ka-perseus-images.s3.amazonaws.com/1a35297f8e56e9a82b6f90cbd22d37e7b34fd2f2.jpg",
-    desc: "Where To is an app that brings people together by creating, likeing, saving and sharing events!",
+    desc: "Where To is an app that brings people together by creating, likeing, saving and sharing events! It is a basic CRUD application with an admin page where the owner of the store can create, read, update and delete all products in the store.",
   },
   {
     id: 2,
