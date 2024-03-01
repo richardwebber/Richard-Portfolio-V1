@@ -6,9 +6,9 @@ const items = [
   {
     id: 1,
     title: "Where To?",
-    img: "https://ka-perseus-images.s3.amazonaws.com/1a35297f8e56e9a82b6f90cbd22d37e7b34fd2f2.jpg",
+    img: "WTEventsDT.png",
     desc: "Where To? is a CRUD social media application built using the PERN stack. I used React JS, Node.js, SASS/CSS, Bootstrap/Material UI (component libraries), Zustand (global state management), Google Maps API and Axios for the front end. For the back end I used PostgreSQL, Express (server & sessions) and Bcrypt (login encryption).",
-    desc2: "Where to was created with the intention to provide a solution for the perpetual question of what to do in your free time. Whether you're seeking adventure, socializing with others, or exploring new hobbies, Where To? is your go-to companion. We believe in the power of community and shared experiences, and we've built a platform that reflects this philosophy. With Where To? you can create, share, post and like events with your friends. Think instagram but instead you’re sharing events with your community. ",
+    desc2: "Where to was created with the intention to provide a solution for the perpetual question of what to do in your free time. Whether you're seeking adventure, socializing with others, or exploring new hobbies, Where To? is your go-to companion. I believe in the power of community and shared experiences, and I've built a platform that reflects this philosophy. With Where To? you can create, share, post and like events with your friends. Think instagram but instead you are sharing events with your community. ",
   },
   {
     id: 2,
