@@ -7,19 +7,22 @@ const items = [
     id: 1,
     title: "Where To?",
     img: "https://ka-perseus-images.s3.amazonaws.com/1a35297f8e56e9a82b6f90cbd22d37e7b34fd2f2.jpg",
-    desc: "Where To? is a CRUD social media application built using the PERN stack. I used React JS, Node.js, Material UI (component library), Zustand (global state management), Google Maps API and Axios for the front end. For the back end I used PostgreSQL, Express (server & sessions) and Bcrypt (login encryption). Where to was created with the intention to provide a solution for the perpetual question of what to do in your free time. Whether you're seeking adventure, socializing with others, or exploring new hobbies, Where To? is your go-to companion. We believe in the power of community and shared experiences, and we've built a platform that reflects this philosophy.",
+    desc: "Where To? is a CRUD social media application built using the PERN stack. I used React JS, Node.js, SASS/CSS, Bootstrap/Material UI (component libraries), Zustand (global state management), Google Maps API and Axios for the front end. For the back end I used PostgreSQL, Express (server & sessions) and Bcrypt (login encryption).",
+    desc2: "Where to was created with the intention to provide a solution for the perpetual question of what to do in your free time. Whether you're seeking adventure, socializing with others, or exploring new hobbies, Where To? is your go-to companion. We believe in the power of community and shared experiences, and we've built a platform that reflects this philosophy. With Where To? you can create, share, post and like events with your friends. Think instagram but instead you’re sharing events with your community. ",
   },
   {
     id: 2,
     title: "RAW.house Collective",
     img: "https://wallpapercave.com/wp/wp11678597.jpg",
-    desc: "Where To is an app that brings people together by creating, likeing, saving and sharing events!",
+    desc: "RAW.house Collective is an ecommerce CRUD application using the PERN stack. I used React JS, Node.js, SASS/CSS, React Bootstrap (component library), Redux (global state management) and Axios for the front end. On the back end I used PostgreSQL and Express (server & sessions).",
+    desc2: "I created RAW.house Collective because I wanted to create a clothing website where the target audience was individuals who need tough, stylish clothing that compliments their hobby. The target  audience are individuals who enjoy drifting cars, skateboarding and the aesthetic/ energy that comes from those communities. ",
   },
   {
     id: 3,
     title: "Customer Admin APP",
     img: "https://w0.peakpx.com/wallpaper/207/486/HD-wallpaper-laguna-beach-usa-california-dawn-night-lights-scenery-relaxing-mood-nature.jpg",
     desc: "Where To is an app that brings people together by creating, likeing, saving and sharing events!",
+    desc2: "Lorem ipsum",
   },
 ];
 
@@ -43,6 +46,7 @@ const Single = ({ item }) => {
           <motion.div className="textContainer" style={{y}}>
             <h2>{item.title}</h2>
             <p>{item.desc}</p>
+            <p>{item.desc2}</p>
             <button>DEMO</button>
           </motion.div>
         </div>
