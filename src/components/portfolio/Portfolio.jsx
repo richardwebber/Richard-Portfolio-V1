@@ -25,9 +25,9 @@ const items = [
     id: 3,
     title: "Customer Admin APP",
     imgDesc:"Browse events",
-    img: "https://w0.peakpx.com/wallpaper/207/486/HD-wallpaper-laguna-beach-usa-california-dawn-night-lights-scenery-relaxing-mood-nature.jpg",
-    desc: "Where To is an app that brings people together by creating, likeing, saving and sharing events!",
-    desc2: "Lorem ipsum",
+    img: "gbmarketing.png",
+    desc: "While working for Growth Bound Marketing, I was given the task of building the front end for our application to help our customers track leads (phone calls, form submissions, quotes), SEO (domain rank, page rank, backlinks, ref. domains, keywords, traffic) and the channels that these leads are coming through. I used React.js and React Bootstrap with CSS to build the front end. ",
+    desc2: "If you would like to see the full demo of the application, please reach out to me via email and I can give you a temporary login and password.",
     link: "https://reports.growthboundmarketing.com/",
   },
 ];
