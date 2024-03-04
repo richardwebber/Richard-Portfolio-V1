@@ -16,7 +16,7 @@ const items = [
     id: 2,
     title: "RAW.house Collective",
     imgDesc:"Browse events",
-    img: "https://wallpapercave.com/wp/wp11678597.jpg",
+    img: "RAWhouse.png",
     desc: "RAW.house Collective is an ecommerce CRUD application using the PERN stack. I used React JS, Node.js, SASS/CSS, React Bootstrap (component library), Redux (global state management) and Axios for the front end. On the back end I used PostgreSQL and Express (server & sessions).",
     desc2: "I created RAW.house Collective because I wanted to create a clothing website where the target audience was individuals who need tough, stylish clothing that compliments their hobby. The target  audience are individuals who enjoy drifting cars, skateboarding and the aesthetic/ energy that comes from those communities. ",
     link: "https://github.com/richardwebber/DevMountain-Personal-Project",

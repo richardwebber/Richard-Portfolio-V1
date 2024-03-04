@@ -54,7 +54,7 @@ export const Hero = () => {
         </motion.div>
       </div>
       <div className="imageContainer">
-        <img className="headshot-img" src="/Riz_Ahmed.png" alt="" />
+        {/* <img className="headshot-img" src="/Riz_Ahmed.png" alt="" /> */}
       </div>
     </div>
   );
